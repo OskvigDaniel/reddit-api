@@ -1,7 +1,10 @@
 # Reddit-Api Local Development
 To get started, run the following:
+
 ```go build cmd/main/main.go```
+
 ```go ./main -id=<id here> -secret=<secret-here> -subreddit=/r/programming```
+
 Note that subreddit strings must contain the leading /r/
 
 There exist flags for both http host and port via `-host` and `-port`
